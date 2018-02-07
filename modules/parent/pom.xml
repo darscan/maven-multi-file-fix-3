@@ -14,6 +14,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
   </parent>
 
   <dependencies>
+    <!-- version defined by parent dep management -->
     <dependency>
       <groupId>org.apache.struts</groupId>
       <artifactId>struts2-core</artifactId>
@@ -23,6 +24,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
             <groupId>asm</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <!-- direct dep -->
+    <dependency>
+      <groupId>org.apache.axis2</groupId>
+      <artifactId>axis2</artifactId>
+      <version>1.7.0</version>
+      <type>pom</type>
     </dependency>
   </dependencies>
 
