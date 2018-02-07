@@ -10,7 +10,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     <groupId>org.example.fixtures</groupId>
     <artifactId>super-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../super-parent</relativePath>
+    <relativePath>../super-parent/pom.xml</relativePath>
   </parent>
 
   <dependencies>
